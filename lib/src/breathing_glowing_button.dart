@@ -2,27 +2,43 @@ library breathing_glowing_button;
 
 import 'package:flutter/material.dart';
 
-/// A Breathing Glow Button widget.
+/// A Breathing Glowing Button widget.
+///
+/// If properties are not given, default value is used.
 
 class BreathingGlowingButton extends StatefulWidget {
   /// Width of the button.
+  ///
+  /// Default value: 60.0.
   final double width;
 
   /// Height of the button.
+  ///
+  /// Default value: 60.0.
   final double height;
 
-  /// Default [buttonBackgroundColor] value: Color(0xFF373A49).
+  /// The color for button background.
+  ///
+  /// Default value: Color(0xFF373A49).
   final Color buttonBackgroundColor;
 
-  /// Default [glowColor] value: Color(0xFF777AF9).
+  /// The color of the breathing glow animation.
+  ///
+  /// Default value: Color(0xFF777AF9).
   final Color glowColor;
 
-  /// Default [icon] value: Icons.mic.
+  /// Icon inside the button.
+  ///
+  /// Default value: Icons.mic.
   final IconData icon;
 
+  /// The color of the icon.
+  ///
   /// Default [iconColor] value: Colors.white.
   final Color iconColor;
 
+  /// Function to be executed onTap.
+  ///
   /// Default [onTap] value: null
   final Function onTap;
 
@@ -48,10 +64,12 @@ class _BreathingGlowingButtonState extends State<BreathingGlowingButton>
   @override
   void initState() {
     super.initState();
+    tenet();
+  }
 
-    /// Core animation control is done here.
-    /// Animation completes in 2 seconds then repeat by reversing.
-    /// [TENET]
+  /// Core animation control is done here.
+  /// Animation completes in 2 seconds then repeat by reversing.
+  void tenet() {
     _animationController =
         AnimationController(vsync: this, duration: Duration(seconds: 2));
     _animationController.repeat(reverse: true);
@@ -63,14 +81,14 @@ class _BreathingGlowingButtonState extends State<BreathingGlowingButton>
 
   @override
   Widget build(BuildContext context) {
-    final double _width = widget.width;
-    final double _height = widget.height;
+    final double _width = widget.width ?? 60;
+    final double _height = widget.height ?? 60;
     final Color _buttonBackgroundColor =
         widget.buttonBackgroundColor ?? Color(0xFF373A49);
     final Color _glowColor = widget.glowColor ?? Color(0xFF777AF9);
     final IconData _icon = widget.icon ?? Icons.mic;
     final Color _iconColor = widget.iconColor ?? Colors.white;
-    final Function _onTap = widget.onTap;
+    final Function _onTap = widget.onTap ?? () {};
 
     /// A simple breathing glowing button.
     /// Built using [Container] and [InkWell].
