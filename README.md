@@ -35,8 +35,8 @@ BreathingGlowingButton(
 
 ## Possible error
 
-If you ran into a problem that with this widget,
-try setting sdk constraint to >=2.8.0
+If you ran into a problem with this widget,
+try setting sdk constraint to >=2.8.0 in your pubspec.yaml file.
 ```yaml
 environment:
   sdk: ">=2.8.0 <3.0.0"
