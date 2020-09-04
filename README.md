@@ -1,6 +1,9 @@
 # Breathing Collection
 A collection of Flutter widgets with breathing animation.
 
+### List of widgets
+* [BreathingGlowingButton](#breathingglowingbutton)
+
 ## Installing
 
 Add this to your package's pubspec.yaml file:
@@ -28,4 +31,13 @@ BreathingGlowingButton(
         // do something
     };
 )
+```
+
+## Possible error
+
+If you ran into a problem that with this widget,
+try setting sdk constraint to >=2.8.0
+```yaml
+environment:
+  sdk: ">=2.8.0 <3.0.0"
 ```
