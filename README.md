@@ -14,7 +14,7 @@ dependencies:
 ## Examples
 
 #### BreathingGlowingButton
-![Breathing Glowing Button]()
+![Breathing Glowing Button](doc/screenshots/breathing_glowing_button.gif?raw=true)
 
 ```dart
 BreathingGlowingButton(
