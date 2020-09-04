@@ -3,6 +3,7 @@ A collection of Flutter widgets with breathing animation.
 
 ### List of widgets
 * [BreathingGlowingButton](#breathingglowingbutton)
+* More coming
 
 ## Installing
 
