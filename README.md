@@ -11,7 +11,7 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  breathing_collection: ^0.1.1
+  breathing_collection: ^0.1.2
 ```
 ---
 
