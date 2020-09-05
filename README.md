@@ -11,7 +11,7 @@ Add this to your package's pubspec.yaml file and run `flutter pub get`:
 
 ```yaml
 dependencies:
-  breathing_collection: ^0.1.3
+  breathing_collection: ^0.1.3+1
 ```
 Now in your Dart code, you can use:
 

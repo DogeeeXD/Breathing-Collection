@@ -1,3 +1,6 @@
+## [0.1.3+1] - 5 September 2020
+Added example
+
 ## [0.1.3] - 5 September 2020
 Updated pubspec.yaml for repository link
 
