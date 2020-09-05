@@ -1,3 +1,6 @@
+## [0.1.3] - 5 September 2020
+Updated pubspec.yaml for repository link
+
 ## [0.1.2] - 4 September 2020
 Added more default values and updated documentation
 
