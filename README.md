@@ -18,7 +18,7 @@ dependencies:
 ## Examples
 
 #### BreathingGlowingButton
-![Breathing Glowing Button](doc/screenshots/breathing_glowing_button.gif?raw=true)
+![Breathing Glowing Button](https://ghcdn.rawgit.org/DogeeeXD/Breathing-Collection/master/doc/screenshots/breathing_glowing_button.gif)
 
 ```dart
 BreathingGlowingButton(
