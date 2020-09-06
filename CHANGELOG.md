@@ -1,3 +1,6 @@
+## [0.1.4+1] - 6 September 2020
+Added BreathingBackground widget
+
 ## [0.1.3+1] - 5 September 2020
 Added example
 

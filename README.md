@@ -3,6 +3,7 @@ A collection of Flutter widgets with breathing animation.
 
 ### List of widgets
 * [BreathingGlowingButton](#breathingglowingbutton)
+* [BreathingBackground](#breathingbackground)
 * More coming
 
 ## Installing
@@ -11,7 +12,7 @@ Add this to your package's pubspec.yaml file and run `flutter pub get`:
 
 ```yaml
 dependencies:
-  breathing_collection: ^0.1.3+1
+  breathing_collection: ^0.1.4+1
 ```
 Now in your Dart code, you can use:
 
@@ -36,6 +37,21 @@ BreathingGlowingButton(
     onTap = () {
         // do something
     };
+)
+```
+
+#### BreathingBackground
+![Breathing Glowing Button]()
+
+```dart
+BreathingBackground(
+    initialMainColor = Color(0xFFDAD9E7),
+    transformedMainColor = Color(0xFFB1B1BD),
+    initialSecondaryColor = Color(0xFFB1B1BD),
+    transformedSecondaryColor = Colors.white,
+    begin = Alignment.topCenter,
+    end = Alignment.bottomCenter,
+    duration = Duration(seconds: 3),
 )
 ```
 

@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 /// A Breathing Glowing Button widget.
 ///
 /// If properties are not given, default value is used.
-
 class BreathingGlowingButton extends StatefulWidget {
   /// Width of the button.
   ///
