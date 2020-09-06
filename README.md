@@ -41,7 +41,7 @@ BreathingGlowingButton(
 ```
 
 #### BreathingBackground
-![Breathing Glowing Button]()
+![Breathing Background](https://ghcdn.rawgit.org/DogeeeXD/Breathing-Collection/master/doc/screenshots/breathing_background.gif)
 
 ```dart
 BreathingBackground(
