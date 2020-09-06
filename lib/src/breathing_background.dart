@@ -6,7 +6,7 @@ import 'package:supercharged/supercharged.dart';
 
 /// A breathing background widget.
 ///
-/// Default properties uses colors that are easy to distinguish.
+/// Use this widget in a [Stack] as background.
 ///
 /// Users should experiment with different colors to get their intended effect.
 ///

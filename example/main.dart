@@ -1,4 +1,5 @@
 import 'package:breathing_collection/breathing_collection.dart';
+import 'package:breathing_collection/src/breathing_background.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatefulWidget {
@@ -18,7 +19,12 @@ class _MyAppState extends State<MyApp> {
       home: SafeArea(
         child: Scaffold(
           body: Center(
-            child: BreathingGlowingButton(),
+            child: Stack(
+              children: [
+                BreathingBackground(),
+                BreathingGlowingButton(),
+              ],
+            ),
           ),
         ),
       ),
