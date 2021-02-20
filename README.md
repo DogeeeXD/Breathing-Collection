@@ -24,7 +24,7 @@ import 'package:breathing_collection/breathing_collection.dart';
 ## Examples
 
 #### BreathingGlowingButton
-![Breathing Glowing Button](doc/screenshots/breathing_glowing_button.gif)
+![Breathing Glowing Button](https://raw.githubusercontent.com/DogeeeXD/Breathing-Collection/master/doc/screenshots/breathing_glowing_button.gif)
 
 ```dart
 BreathingGlowingButton(
@@ -41,7 +41,7 @@ BreathingGlowingButton(
 ```
 
 #### BreathingBackground
-![Breathing Background](doc/screenshots/breathing_background.gif)
+![Breathing Background](https://raw.githubusercontent.com/DogeeeXD/Breathing-Collection/master/doc/screenshots/breathing_background.gif)
 
 ```dart
 BreathingBackground(
