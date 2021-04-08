@@ -1,3 +1,6 @@
+## [0.1.5] - 6 September 2020
+Added dispose method and update all dependencies
+
 ## [0.1.4+1] - 6 September 2020
 Added BreathingBackground widget
 

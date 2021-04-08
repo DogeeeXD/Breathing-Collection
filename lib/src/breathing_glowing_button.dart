@@ -66,6 +66,13 @@ class _BreathingGlowingButtonState extends State<BreathingGlowingButton>
     tenet();
   }
 
+  @override
+  void dispose() {
+    _animationController.dispose();
+    _animation.removeListener(() {});
+    super.dispose();
+  }
+
   /// Core animation control is done here.
   /// Animation completes in 2 seconds then repeat by reversing.
   void tenet() {
